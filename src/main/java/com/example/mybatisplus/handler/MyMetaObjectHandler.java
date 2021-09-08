@@ -16,6 +16,7 @@ public class MyMetaObjectHandler implements MetaObjectHandler {
         this.setFieldValByName("createTime", new Date(), metaObject);
         this.setFieldValByName("updateTime", new Date(), metaObject);
         System.out.println("111");
+        System.out.println("222");
     }
 
     @Override
